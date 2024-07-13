@@ -1,0 +1,258 @@
+
+.center 
+			{
+				text-align: center;
+			}
+
+            .box01 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+                border: 2px solid #f9f7f7;
+                background-color: #f0f0f0;
+                margin: 20px auto;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+    
+            .box span {
+                font-size: 15px;
+                white-space: nowrap;
+            }
+            .section {
+                margin-bottom: 50px; /* Add margin between sections */
+            }
+
+            .services-heading {
+                margin-top: 50px; /* Adjust margin as needed */
+                text-align: center;
+            }
+            .services-text {
+                text-align: center;
+            }
+
+            
+            .container {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px; /* Added margin for separation */
+            }
+            .box {
+                width: calc(33% - 10px); /* Adjust width for three boxes with separation */
+                background-color:white;
+                border: 1px solid #ccc;
+                padding: 20px;
+                transition: background-color 0.3s;
+                margin-right: 20px; /* Added margin for separation between boxes */
+            }
+            .box:last-child {
+                margin-right: 0; /* Remove margin from the last box to avoid extra space */
+            }
+            .box:hover {
+                background-color:rgb(144, 144, 249) ; /* Change background color on hover */
+            }
+            .symbol {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .heading {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .text {
+                font-size: 14px;
+            }
+
+            .bg-section {
+                background-color: #f0f0f0;
+                padding: 10px;
+                margin-top: 10px; /* Space after the boxes */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .computer-image {
+                position: relative;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                padding-left: 120px;
+            }
+            .text-box {
+                position: absolute;
+                bottom: 10px; /* Adjust as needed */
+                right: -100px; /* Adjust as needed */
+                background-color: rgba(134, 109, 238, 0.8);
+                padding: 20px;
+            }
+            .text-content {
+                max-width: 45%;
+            }
+            .text-content h2 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .text-content p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+            .carousel-box {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px; /* Space between slides */
+            }
+            .box1 {
+                width: 48%; /* Adjust as needed */
+                background-color: #fff;
+                padding: 20px;
+                border: 1px solid #ccc;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .partition {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #ddd;
+                margin-right: 10px; /* Space between partitions */
+                text-align: center;
+            }
+            .partition:last-child {
+                margin-right: 0; /* Remove margin for the last partition */
+            }
+            .carousel-caption {
+                position: static;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.8);
+                margin-top: 20px;
+            }
+            .symbol1 {
+                font-size: 30px;
+                margin-bottom: 100px;
+            }
+            .main-heading1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            
+            .sub-heading1 {
+                font-size: 18px;
+                color: gray;
+                margin-bottom: 10px;
+            }
+            .main-heading {
+                margin: 0;
+                font-size: 20px;
+                margin-inline-start: auto;
+            }
+            
+            .sub-heading {
+                margin: 0;
+                font-size: 12px;
+                color: gray;
+                margin-inline-start: auto;
+                margin-top: 50%;
+                margin-right: 10%;
+
+            }
+            .box4 {
+                border: 10px solid #ccc;
+                padding: 85px;
+                width: 33.3%;
+                background-color: #f9f9f9; /* Example background color */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin-right: 0%;
+            }
+            
+            .main-heading {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            
+            .sub-heading {
+                font-size: 18px;
+                color: gray;
+                margin-bottom: 10px;
+            }
+            
+            .options-list {
+                list-style-type: disc;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .choose-plan {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            .choose-plan:hover {
+                background-color: #0056b3;
+            }
+            .spacer {
+                height: 70px; /* Adjust as needed */
+            }
+            .spacer1{
+                height: 40px; /* Adjust as needed */
+            }
+            .image-grid {
+                display: flex;
+            }
+            
+            .image-item {
+                margin-right: 130px; /* Adjust as needed */
+                background-color: white;
+                margin-left:110px;
+            }
+            
+            .image-item img {
+                width: 150px; /* Adjust as needed */
+                transition: transform 0.3s ease; /* Smooth transition */
+            }
+            
+            .image-item:hover img {
+                transform: scale(1.1); /* Enlarge image on hover */
+            }
+            .background{
+                background-color: rgb(24, 24, 26);
+                color: white;
+                padding: 50px;
+              }
+              .background::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: rgb(110, 30, 202); /* Adjust color as needed */
+                z-index: -1; /* Push it behind the content */
+              }
+              .content {
+                font-size: 18px;
+              }
+              .hover-item:hover {
+                color: rgb(122, 122, 103); /* Change color on hover */
+              }
+              .background hr {
+                border-top: 1px solid white;
+              }
+              .social-icons {
+                position: absolute;
+                top: 10px; /* Adjust vertical position */
+                right: 80px; /* Adjust horizontal position */
+              }
+              .social-icons a {
+                margin-right: 30px; /* Adjust space between icons */
+              }
+              
